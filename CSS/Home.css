@@ -1,35 +1,51 @@
  #loginForm{
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
-    width: 300px;
-    height: 150px;
-   
+    width: 98%;
+    height: 700px;
+     padding: 1rem 1rem;
+     background-color:white;
+     background-image: url(/images/HomeBg.jpg);
+     background-position: right;
+     background-repeat: no-repeat;
+     background-size: 70% 100%;
 } 
+#form{
+        width: 200px;
+        margin-top: 15%;
+        margin-left: 4%;
+        margin-bottom: 15%;
+        padding: 50px; 
+        color: chocolate;
+        font-size: larger;
+        
+}
 .loginButton{
     background-color: cornflowerblue;
     color: white;
     border-radius: 2px;
     border-color: white;
-    margin-left: 50px;
     padding: 10px;
     font-weight: bold;
 }
-
+#pwdfgt{
+    font-size: small;
+}
 .resetButton{
     background-color:burlywood;
     color: white;
     border-radius: 2px;
     border-color: white;
-    margin: 10px;
     padding: 10px;
+    margin-left: 10px;
     font-weight: bold;
 }
-
 .formInput{
 
         border: hidden;
         border-bottom: 1px solid black;
         background: transparent;
         size: 30;
+       
 }
 
