@@ -1,51 +1,43 @@
- #loginForm{
-    font-size: medium;
-    font-family: 'Times New Roman', Times, serif;
-    width: 98%;
-    height: 700px;
-     padding: 1rem 1rem;
-     background-color:white;
-     background-image: url(/images/HomeBg.jpg);
-     background-position: right;
-     background-repeat: no-repeat;
-     background-size: 70% 100%;
-} 
-#form{
-        width: 200px;
-        margin-top: 15%;
-        margin-left: 4%;
-        margin-bottom: 15%;
-        padding: 50px; 
-        color: chocolate;
-        font-size: larger;
-        
+* {
+    box-sizing: border-box;
 }
-.loginButton{
-    background-color: cornflowerblue;
-    color: white;
-    border-radius: 2px;
-    border-color: white;
+body{
+    background-image: url('/images/HomeBg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+    background:transparent;
+    color: black;
+    text-align: end;
+    text-decoration: none;
+    font-size: large;
+    position: sticky;
+    width: 70%;
+    float: right;
+}
+.logo{
+    /* float: left; */
+    display: inline-block;
+    width: 12%;
+    height: 150px;
+    background: transparent;
+    background-image: url(/images/Logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.menu{
+    display: inline-block;
     padding: 10px;
-    font-weight: bold;
-}
-#pwdfgt{
-    font-size: small;
-}
-.resetButton{
-    background-color:burlywood;
-    color: white;
-    border-radius: 2px;
-    border-color: white;
-    padding: 10px;
-    margin-left: 10px;
-    font-weight: bold;
-}
-.formInput{
-
-        border: hidden;
-        border-bottom: 1px solid black;
-        background: transparent;
-        size: 30;
-       
+    margin-right: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#search{
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
