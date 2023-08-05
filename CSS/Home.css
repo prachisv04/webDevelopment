@@ -5,6 +5,18 @@ body{
     background-image: url('/images/HomeBg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    height: 1900px;
+    width:auto;
+}
+.offer{
+    background-color: white;
+    margin-top: -10px;
+    text-align: center;
+    
+}
+.offer a{
+    text-decoration: none;
+    color: black;
 }
 .navbar{
     background:transparent;
@@ -12,20 +24,21 @@ body{
     text-align: end;
     text-decoration: none;
     font-size: large;
-    position: sticky;
-    width: 70%;
-    float: right;
+    position: fixed;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: inline-block;
 }
 .logo{
-    /* float: left; */
-    display: inline-block;
+    float: left;
     width: 12%;
     height: 150px;
     background: transparent;
     background-image: url(/images/Logo.png);
     background-repeat: no-repeat;
     background-size: cover;
-   
+    /* border: 2px solid black; */
+    position: fixed;
 }
 .menu{
     display: inline-block;
@@ -34,10 +47,22 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.navbar .menu a{
+    text-decoration: none;
+}
+.navbar .menu a:hover, .navbar .menu a.active{
+    color: white;
+}
 #search{
     background: none;
     border: none;
     border-bottom: 1px solid black;
     font-size: large;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+}
+
+#search:focus{
+    outline: none;
 }
