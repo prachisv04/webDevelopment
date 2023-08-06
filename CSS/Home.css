@@ -1,12 +1,13 @@
 * {
     box-sizing: border-box;
 }
-body{
-    background-image: url('/images/HomeBg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 1900px;
-    width:auto;
+body::before{
+    background: url('/images/HomeBg.jpg') no-repeat center center/cover;
+    opacity: 0.5;
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
 }
 .offer{
     background-color: white;
@@ -49,9 +50,14 @@ body{
 
 .navbar .menu a{
     text-decoration: none;
+    color: black;
 }
 .navbar .menu a:hover, .navbar .menu a.active{
-    color: white;
+    background-color: white;
+    color:black;
+    border: 1px solid white;
+    padding: 6px 8px;
+    border-radius: 4px;
 }
 #search{
     background: none;
@@ -66,3 +72,4 @@ body{
 #search:focus{
     outline: none;
 }
+

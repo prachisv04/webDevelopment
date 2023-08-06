@@ -1,0 +1,57 @@
+
+body::before{
+    background: url('/images/snow.jpg') no-repeat center center/cover;
+    opacity: 0.5;
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+    align-items: center;
+    height: 400px;
+    width: 30vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 14px 14px 14px rgb(221, 221, 238);
+    backdrop-filter: blur(10px);
+}
+.login-form form #user,.login-form form #pwd{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 200px;
+    height: 3vh;
+    padding: 5px;
+    margin:20px;
+    background: transparent;
+    font-size: medium;
+}
+input:focus{
+    outline: none;
+}
+#Login{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px 30px;
+}
+#Login:hover{
+    cursor: pointer;
+    background-color: rgb(63, 87, 144);
+    color: white;
+}
+#Login:active{
+    cursor: pointer;
+    background-color: rgb(18, 105, 32);
+    color: white;
+}
+.login-form{
+    display :flex;
+    justify-content: center;
+}
